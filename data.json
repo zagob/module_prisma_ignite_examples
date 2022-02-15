@@ -1,0 +1,49 @@
+[
+  {
+    "id": "d1b44a34-8251-4ca5-bd15-b5cff7f6af91",
+    "name": "Curso de Java",
+    "description": "Curso de Java 17",
+    "duration": 500,
+    "created_at": "2022-02-15T19:50:56.961Z",
+    "fk_id_teacher": "8761feb7-015f-47da-97c0-fde358c236ec",
+    "CoursesModules": []
+  },
+  {
+    "id": "43c5f0bb-f093-4285-8f96-5ee82ba230ba",
+    "name": "Curso de ReactJS",
+    "description": "Curso com Diego",
+    "duration": 300,
+    "created_at": "2022-02-15T19:59:30.927Z",
+    "fk_id_teacher": "cd204481-bade-4fa0-8a80-b69e018c80d1",
+    "CoursesModules": [
+      {
+        "id": "36112d96-cb3b-4001-9dcd-84e31dbc4236",
+        "fk_id_course": "43c5f0bb-f093-4285-8f96-5ee82ba230ba",
+        "fk_id_module": "404cb894-ef2b-4244-98a6-98dc1390a5a8",
+        "created_at": "2022-02-15T20:50:59.206Z"
+      },
+      {
+        "id": "892cfc13-80ed-4b18-adf6-4920dba6ce07",
+        "fk_id_course": "43c5f0bb-f093-4285-8f96-5ee82ba230ba",
+        "fk_id_module": "404cb894-ef2b-4244-98a6-98dc1390a5a8",
+        "created_at": "2022-02-15T20:57:55.913Z"
+      }
+    ]
+  },
+  {
+    "id": "0b7687a9-43e3-4933-ba8d-0bf4b9ad6a79",
+    "name": "Curso de NodeJS",
+    "description": "Curso completo",
+    "duration": 200,
+    "created_at": "2022-02-15T21:12:42.073Z",
+    "fk_id_teacher": null,
+    "CoursesModules": [
+      {
+        "id": "2642d66f-af5b-450d-9a6f-b5507c77e3dc",
+        "fk_id_course": "0b7687a9-43e3-4933-ba8d-0bf4b9ad6a79",
+        "fk_id_module": "75198fa9-1a8d-4fa2-8db2-b31b3c1b953d",
+        "created_at": "2022-02-15T21:12:42.073Z"
+      }
+    ]
+  }
+]
